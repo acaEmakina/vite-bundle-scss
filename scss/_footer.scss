@@ -1,9 +1,13 @@
 @import './_variables';
+@import './_mixins';
 
 footer {
   background-color: $darkBlue;
   padding: 3rem;
   margin-top: auto;
+  @include respond-to(medium) {
+    background-color: $purple;
+  }
 
   ul {
     display: flex;

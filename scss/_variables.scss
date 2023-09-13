@@ -1,3 +1,30 @@
+//---- Colors variables -----//
+$primary-color: #000;
+$purple: #5b41fc;
 $darkBlue: darkblue;
 $lightGreen: lightgreen;
 $white: white;
+
+//---- Text variables -----//
+$huge-txt: 7.2rem;
+$big-txt: 6.5rem;
+$xxl-txt: 4.2rem;
+$xl-txt: 3.4rem;
+$lg-txt: 2.8rem;
+$md-txt: 2.4rem;
+$rg-txt: 1.8rem;
+$sm-txt: 1.6rem;
+$xs-txt: 1.4rem;
+$xxs-txt: 1.2rem;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'xsmall': 400px,
+  'mobile': 540px,
+  'small': 768px,
+  'medium': 992px,
+  'large': 1280px,
+  'huge': 1680px,
+) !default;
