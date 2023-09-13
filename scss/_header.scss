@@ -1,0 +1,25 @@
+@import './_variables';
+
+header {
+  background-color: $lightGreen;
+  text-align: center;
+  padding: 2rem;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .header-btn {
+    color: $white;
+    background-color: $darkBlue;
+    border: none;
+    padding: 1rem 2.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: backgroundColor 0.2s linear;
+
+    &:hover {
+      background-color: rgb(13, 13, 230);
+    }
+  }
+}

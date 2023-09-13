@@ -1,0 +1,21 @@
+@import './_variables';
+
+footer {
+  background-color: $darkBlue;
+  padding: 3rem;
+  margin-top: auto;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+
+  li {
+    a {
+      color: $white;
+    }
+  }
+}
